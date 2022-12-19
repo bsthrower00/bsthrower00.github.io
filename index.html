@@ -12,5 +12,13 @@
         alert('Hello World!');
       }
     </script>
+    
+    <script src="https://pyodide-cdn2.iodide.io/v0.15.0/full/pyodide.js"></script>
+    <script>
+      pyodide.runPython(`
+        print('Hello, World!')
+      `);
+    </script>
+
   </body>
 </html>
